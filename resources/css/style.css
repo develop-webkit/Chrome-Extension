@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+input,
+input:focus-visible{
+    width:100%;
+    padding:10px 10px;
+    outline:none;
+    border:1px solid #5f9341;
+}
+
+button {
+    background-color:#5f9341;
+    color:#fff;
+    border:0;
+    padding:10px 15px;
+    font-size:14px;
+    margin-top:5px;
+    font-weight:bold;
+}
