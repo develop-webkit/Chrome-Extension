@@ -1,3 +1,7 @@
+html{
+    min-width:400px;
+}
+
 *{
     box-sizing: border-box;
 }
