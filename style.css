@@ -24,11 +24,18 @@ input:focus-visible{
 button {
     background-color:#5f9341;
     color:#fff;
-    border:0;
+    border:1px solid #5f9341;
     padding:10px 15px;
     font-size:14px;
     margin-top:5px;
     font-weight:bold;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background-color:#fff;
+    border:1px solid #5f9341;
+    color:#5f9341;
 }
 
 ul{
