@@ -13,6 +13,18 @@ body {
     font-size:14px;
 }
 
+.input-block label{
+    display:inline-block;
+    width:calc(50% - 2px);
+    margin-right:4px;
+    font-weight:bold;
+    color:#5f9341;
+}
+
+.input-block label:last-child{
+    margin-right:0;
+}
+
 input,
 input:focus-visible{
     width:100%;

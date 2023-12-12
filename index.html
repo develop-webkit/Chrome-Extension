@@ -7,12 +7,20 @@
     <title>Chrome Extension</title>
 </head>
 <body>
-        <input title="Input Url" type="text" id="input-el">
-        <button type="submit" id="input-btn">Save Input</button>
-        <button id="tab-btn">SAVE TAB</button>
-        <button type="button" id="delete-btn">Delete all</button>
-        <ul id="ul-el">
-        </ul>
+    <div class="input-block">
+        <label for="input-el">
+            Url:
+            <input title="Input Url" type="text" id="input-el">
+        </label><label for="title-el">
+            Title:
+            <input title="Title" type="text" id="title-el">
+        </label>
+    </div>
+    <button type="submit" id="input-btn">Save Input</button>
+    <button type="button" id="tab-btn">SAVE TAB</button>
+    <button type="button" id="delete-btn">Delete all</button>
+    <ul id="ul-el">
+    </ul>
     <script src="script.js"></script>
 </body>
 </html>
